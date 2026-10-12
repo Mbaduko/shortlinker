@@ -8,3 +8,12 @@ generator client {
 datasource db {
   provider = "postgresql"
 }
+
+model Link {
+  id          Int      @id @default(autoincrement())
+  link        String   @unique
+  shortPhrase String   @unique @map("short_phrase")
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  @@map("links")
+}
