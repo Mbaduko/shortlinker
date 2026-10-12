@@ -101,8 +101,7 @@ Deliver a working URL shortening service that can shorten URLs and redirect user
 ## Sprint Tasks
 
 ### Task 1: Set Up Database and Project Infrastructure
-**Related Stories:** 5, 1, 2  
-**Assigned To:** _____
+**Related Stories:** 5, 1, 2
 
 **Task Description:**
 Set up the PostgreSQL database with Prisma ORM and configure the project structure.
@@ -119,8 +118,7 @@ Set up the PostgreSQL database with Prisma ORM and configure the project structu
 ---
 
 ### Task 2: Implement URL Shortening Endpoint
-**Related Stories:** 1, 4  
-**Assigned To:** _____
+**Related Stories:** 1, 4
 
 **Task Description:**
 Create the API endpoint that accepts long URLs and returns shortened versions.
@@ -137,8 +135,7 @@ Create the API endpoint that accepts long URLs and returns shortened versions.
 ---
 
 ### Task 3: Implement URL Redirection Endpoint
-**Related Stories:** 2  
-**Assigned To:** _____
+**Related Stories:** 2
 
 **Task Description:**
 Create the endpoint that redirects users from short URLs to original URLs.
